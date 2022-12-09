@@ -44,3 +44,6 @@ Output:
 
 ![state](https://user-images.githubusercontent.com/114275745/206618559-9a77fe5f-e85a-4de8-af61-e5fc0bbcd03d.png)
 
+Tree Questions:
+
+![Tree_questions](https://user-images.githubusercontent.com/114275745/206619167-d5ea2bdb-b3c0-4858-83e3-5eb29ece7f45.png)
