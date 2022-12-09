@@ -1,7 +1,7 @@
 # CS303_Assignment03
 
 Program objective: 
-Take the entered values of a queue and move the first value to the rear of the queue
+Take the entered values of a queue and move the first value to the rear of the queue \n
 Program Implementation:
 Load move_to_rear source and header file into a compiler and run program
 Output will display and initial queue of 10 20 30 40 
