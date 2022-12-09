@@ -17,10 +17,10 @@ bool isPalindrome(char str[], bool c, bool s);
 
 bool isPalRec(char str[], int start, int end, bool c, bool s)
 {
-	if (start == end)											// One character entries
+	if (start == end)						// One character entries
 		return true;
 
-	if (c && toupper(str[start]) != toupper(str[end]))			// Check first and last char
+	if (c && toupper(str[start]) != toupper(str[end]))		// Check first and last char
 	{
 		if (s && !isalnum(str[start]))
 		{
@@ -38,7 +38,7 @@ bool isPalRec(char str[], int start, int end, bool c, bool s)
 		if (!c && str[start] != str[end])
 			return false;
 
-	if (start < end + 1)								// Check middle char
+	if (start < end + 1)						// Check middle char
 		return isPalRec(str, start + 1, end - 1, c, s);
 
 	return true;
@@ -46,7 +46,7 @@ bool isPalRec(char str[], int start, int end, bool c, bool s)
 
 bool isPalindrome(char str[], bool c, bool s)
 {
-	int n = strlen(str);								// Empty string
+	int n = strlen(str);						// Empty string
 
 	if (n == 0)
 		return true;
